@@ -8,11 +8,6 @@
 ## 2. 코드 분석
 
 ### 1) html
-- `div< CLASS="square">` : 내부 요소를 감싸는 부모 요소이다.
-- `<span> </span>` : `square`의 자식요소, 움직이는 원의 역할을 한다.
-- `<div> </div>` : `square`의 자식요소, `p`, `h2`, `a`의 부모역할을 한다.
-
-<br/>
 
 #### (1) 하나의 div에 button, a태그의 부모인 div를 자식 요소로 둔다.
 ```html
