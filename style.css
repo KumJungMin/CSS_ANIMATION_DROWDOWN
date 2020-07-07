@@ -1,0 +1,32 @@
+body {
+  color: #222;
+  line-height: 1.5em;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+.dropdown-btn {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none; /*html자체에 있는 border같은 겉선을 제거함*/
+}
+
+.dropdown-submenu {
+  display: none; /*안보이게 */
+  /* border: 1px solid #000; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  width: 200px;
+  text-align: center;
+}
+.dropdown-submenu a {
+  display: block; /*세로로 일렬로 나열*/
+}
+/* dropdown에 hover가 되면 -> dropdown-submenu에서 무언가가 실행 */
+/* hover다음에 나오는 요소는 자식요소여야 함 */
+.dropdown:hover .dropdown-submenu {
+  display: block;
+}
